@@ -1,0 +1,103 @@
+export const siteConfig = {
+  logo: {
+    src: '',
+    alt: 'MNC Space Logo',
+    title: 'MNC Space',
+    subtitle: 'Your space. Your future.',
+  },
+  nav: [
+    { label: 'Home', href: '#home' },
+    { label: 'About Us', href: '#about' },
+    { label: 'Our Vision', href: '#vision' },
+    { label: 'Updates', href: '#updates' },
+    { label: 'Join the Journey', href: '#book' },
+  ],
+  hero: {
+    pretitle: 'Building Something Extraordinary',
+    title: 'Our Website is Under Construction!',
+    description:
+      'We’re building a trusted digital platform to help you invest with confidence. Grow with trust. Build your future.',
+    ctaPrimary: { label: 'Notify Me', href: '#newsletter' },
+    ctaSecondary: { label: 'Join the Journey', href: '#book' },
+    countdown: { days: 45, hours: 12, minutes: 35, seconds: 20 },
+    emailPlaceholder: 'Enter your email address',
+    note: 'No spam. Only updates that matter.',
+    background: '',
+    image: '',
+  },
+  features: [
+    {
+      title: 'Trusted Platform',
+      description: 'Verified properties and transparent processes you can rely on.',
+    },
+    {
+      title: 'Smart Experience',
+      description: 'Technology-driven solutions for a seamless investment journey.',
+    },
+    {
+      title: 'Wealth Creation',
+      description: 'Opportunities designed to help you build long-term wealth and security.',
+    },
+    {
+      title: 'Customer First',
+      description: 'Serving every customer with trust, care and commitment.',
+    },
+  ],
+  interestCards: [
+    { title: 'I Want to Buy Property', action: 'Register Interest' },
+    { title: 'I Want to Sell Property', action: 'Contact Sales' },
+    { title: 'I’m an Investor', action: 'Connect' },
+    { title: 'I’m a Builder / Developer', action: 'Become a Partner' },
+    { title: 'I’m Looking for Career Opportunities', action: 'Join Our Team' },
+    { title: 'I Want to Collaborate', action: 'Partner With Us' },
+    { title: 'I’m from Media / Press', action: 'Media Contact' },
+    { title: 'Other Enquiry', action: 'Send Enquiry' },
+  ],
+  stats: [
+    { value: '100+', label: 'People Interested' },
+    { value: '500+', label: 'Updates Sent' },
+    { value: '10+', label: 'Partnership Conversations' },
+    { value: 'Coming Soon', label: 'Stay Tuned!' },
+  ],
+  promises: ['Trust First', 'Transparency', 'Innovation', 'Excellence', 'Commitment'],
+  footer: {
+    company: {
+      title: 'MNC Space',
+      description: 'Building Trust. Creating Wealth. Securing Futures. Serving every customer with trust.',
+    },
+    links: [
+      { title: 'About Us', href: '#about' },
+      { title: 'Our Vision', href: '#vision' },
+      { title: 'Why MNC Space', href: '#why' },
+      { title: 'Our Story', href: '#story' },
+    ],
+    contact: {
+      phone: '+91 81509 07770',
+      email: 'hello@mncs.space',
+      address: ['Bengaluru, Karnataka, India', 'Palakkad, Kerala, India'],
+    },
+    social: [
+      { label: 'LinkedIn', href: 'https://linkedin.com' },
+      { label: 'Instagram', href: 'https://instagram.com' },
+      { label: 'Facebook', href: 'https://facebook.com' },
+    ],
+    copyright: '© 2024 MNC Space Pvt. Ltd. All rights reserved.',
+  },
+  theme: {
+    'brand-dark': '#0A1D3A',
+    'brand-gold': '#D4A017',
+    accent: '#F6C453',
+    'neutral-900': '#0F172A',
+    'neutral-800': '#1F2937',
+    'neutral-700': '#334155',
+    'neutral-600': '#475569',
+    'neutral-500': '#64748B',
+    'neutral-300': '#CBD5E1',
+    'neutral-100': '#E2E8F0',
+    'neutral-50': '#F8FAFC',
+    success: '#10B981',
+    warning: '#F59E0B',
+    error: '#EF4444',
+    info: '#0EA5E9',
+  },
+}
